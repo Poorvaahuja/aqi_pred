@@ -22,7 +22,7 @@ def predict_aqi(model, start_date, periods):
     return predicted_aqi
 
 # Title for the Streamlit app
-st.title('Air Quality Index (AQI) Prediction')
+st.title('VAYU Air Quality Index (AQI) Prediction')
 st.write("""
 This tool allows you to predict AQI for a specific time period.  
 Just provide the necessary inputs below.
